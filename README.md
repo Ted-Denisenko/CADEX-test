@@ -7,6 +7,7 @@ Design a small program in C++ that would implement support of 3D curves hierarch
   6. Compute the total sum of radii of all curves in the second container.
      
   (*) Additional optional requirements:
+  
   8. Split implementation into a library of curves (.dll or .so) and executable which uses API of this library.
   9. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel TBB library).
 
