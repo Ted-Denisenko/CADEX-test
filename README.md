@@ -5,9 +5,10 @@ Design a small program in C++ that would implement support of 3D curves hierarch
   4. Populate a second container that would contain only circles from the first container. Make sure the second container shares (i.e. not clones) circles of the first one, e.g. via pointers.
   5. Sort the second container in the ascending order of circles’ radii. That is, the first element has the smallest radius, the last - the greatest.
   6. Compute the total sum of radii of all curves in the second container.
+     
   (*) Additional optional requirements:
-  7. Split implementation into a library of curves (.dll or .so) and executable which uses API of this library.
-  8. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel TBB library).
+  8. Split implementation into a library of curves (.dll or .so) and executable which uses API of this library.
+  9. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel TBB library).
 
 Requirements to the implementation:
   1. The implementation must use virtual methods.
