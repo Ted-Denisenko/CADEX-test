@@ -1,12 +1,9 @@
-﻿// CADEX-test.cpp : Defines the entry point for the application.
-//
-
-#include "CADEX-test.h"
-
+﻿#include "CADEX-test.h"
 using namespace std;
 
 int main()
 {
+	//Circle<int> circle(1,2,3);
 	cout << "Hello CMake." << endl;
 	return 0;
 }
